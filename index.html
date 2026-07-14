@@ -220,24 +220,27 @@
 
     <header>
         <h1>Kings Tech - The Ultimate Hub</h1>
-        <p>مكتبة الترسانة المفلترة: منصات، تسريبات، هاكرز، برامج، وتيليجرام</p>
+        <p>مكتبة الترسانة المفلترة: منصات، تسريبات، برامج، أدوات المطورين، وصناعة المحتوى</p>
     </header>
 
     <nav class="nav-tabs">
         <button class="nav-btn active" onclick="openPage(event, 'global')">🎓 منصات عالمية</button>
         <button class="nav-btn" onclick="openPage(event, 'arabic')">ع منصات عربية</button>
+        <button class="nav-btn" onclick="openPage(event, 'content-creation')">🎬 صناعة المحتوى</button>
+        <button class="nav-btn" onclick="openPage(event, 'dev-tools')">🛠️ أدوات المطورين</button>
         <button class="nav-btn" onclick="openPage(event, 'course-leaks')">📚 تسريبات الكورسات</button>
         <button class="nav-btn" onclick="openPage(event, 'design-leaks')">🎨 جرافيك ومونتاج</button>
         <button class="nav-btn" onclick="openPage(event, 'software')">💿 برامج مفعلة</button>
         <button class="nav-btn" onclick="openPage(event, 'games-torrents')">🎮 ألعاب وتورنت</button>
+        <button class="nav-btn" onclick="openPage(event, 'game-mods')">🕹️ مودات الألعاب</button>
         <button class="nav-btn" onclick="openPage(event, 'hackers')">🏴‍☠️ منتديات الهاكرز</button>
         <button class="nav-btn" onclick="openPage(event, 'coupons')">🎟️ كوبونات مجانية</button>
         <button class="nav-btn" onclick="openPage(event, 'telegram-free')">📱 تيليجرام (مجاني)</button>
-        <button class="nav-btn" onclick="openPage(event, 'telegram-leaked')">🏴‍☠️ تيليجرام (تسريبات)</button>
+        <button class="nav-btn" onclick="openPage(event, 'telegram-leaked')">🏴‍☠️ تيليجرام (مسرب)</button>
     </nav>
 
     <div class="search-container">
-        <input type="text" id="searchInput" placeholder="ابحث في 10 أقسام متخصصة (مثال: CGPersia, Nulled, FitGirl)...">
+        <input type="text" id="searchInput" placeholder="ابحث في أقسام الترسانة الـ 13 (مثال: Premiere, React, FitGirl)...">
     </div>
 
     <div class="no-results" id="noResults">لا توجد نتائج مطابقة لبحثك...</div>
@@ -264,6 +267,26 @@
             <a href="https://teracourses.com" target="_blank" class="card"><h3>TeraCourses <span>🎓</span></h3><p>دورات مجانية بشهادات في مختلف التخصصات.</p><span class="tag">منصة عربية</span></a>
             <a href="https://www.mindluster.com" target="_blank" class="card"><h3>Mind Luster <span>🧠</span></h3><p>مكتبة ضخمة بتضم أكتر من 300,000 كورس مجاني.</p><span class="tag">مكتبة كورسات</span></a>
             <a href="https://m3aarf.com" target="_blank" class="card"><h3>معارف (Maaref) <span>📚</span></h3><p>منصة بتجمع كورسات مجانية من مصادر عربية مختلفة.</p><span class="tag">مكتبة كورسات</span></a>
+        </div>
+    </div>
+
+    <div id="content-creation" class="page-content category">
+        <h2>🎬 صناعة المحتوى والفيديوهات القصيرة (Shorts & Reels)</h2>
+        <div class="grid">
+            <a href="#" class="card"><h3>Short-Form Video Editing Masterclass <span>🔥</span></h3><p>أقوى كورس دمج Premiere مع After Effects لعمل فيديوهات قصيرة بخوارزميات حديثة.</p><span class="tag">كورس مونتاج</span></a>
+            <a href="https://www.skillshare.com/" target="_blank" class="card"><h3>YouTube Success (Sean Cannell) <span>📈</span></h3><p>استراتيجيات خوارزميات اليوتيوب وبناء قناة ناجحة وجذب المشتركين.</p><span class="tag">استراتيجية يوتيوب</span></a>
+            <a href="https://www.youtube.com/c/FilmBooth" target="_blank" class="card"><h3>Film Booth <span>🎬</span></h3><p>مدرسة مجانية لتعلم الإبقاء على المشاهد (Retention) والأنيميشن التفاعلي الممتع.</p><span class="tag">قناة يوتيوب</span></a>
+            <a href="https://www.youtube.com/c/PaddyGalloway" target="_blank" class="card"><h3>Paddy Galloway <span>📊</span></h3><p>تحليل أرقام وخوارزميات أكبر قنوات اليوتيوب لتطبيق الخلطة السرية للنجاح.</p><span class="tag">تحليل قنوات</span></a>
+        </div>
+    </div>
+
+    <div id="dev-tools" class="page-content category">
+        <h2>🛠️ أدوات المطورين والمسارات البرمجية</h2>
+        <div class="grid">
+            <a href="https://roadmap.sh/" target="_blank" class="card"><h3>Roadmap.sh <span>🗺️</span></h3><p>المرجع العالمي الأول لمعرفة المسارات البرمجية خطوة بخطوة لأي تخصص تقني.</p><span class="tag">مسارات برمجية</span></a>
+            <a href="https://devdocs.io/" target="_blank" class="card"><h3>DevDocs <span>📚</span></h3><p>تجميعة لكل الـ Documentation الخاصة بلغات البرمجة وإطارات العمل في مكان واحد سريع.</p><span class="tag">توثيق برمجي</span></a>
+            <a href="https://css-tricks.com/" target="_blank" class="card"><h3>CSS-Tricks <span>🎨</span></h3><p>كنز لمطوري الواجهات (Front-end) لحل أي مشكلة معقدة في التصميم والـ Flexbox.</p><span class="tag">تطوير واجهات</span></a>
+            <a href="https://huggingface.co/" target="_blank" class="card"><h3>Hugging Face <span>🤖</span></h3><p>أكبر مجتمع مفتوح المصدر لنماذج الذكاء الاصطناعي وتطبيقات تعلم الآلة.</p><span class="tag">ذكاء اصطناعي</span></a>
         </div>
     </div>
 
@@ -295,7 +318,7 @@
         <h2>🎨 حيتان الجرافيك، المونتاج، والـ 3D</h2>
         <div class="grid">
             <a href="https://cgpersia.com/" target="_blank" class="card"><h3>CGPersia <span>🐳</span></h3><p>الحوت الأكبر عالمياً لكورسات وموارد وملحقات التصميم والمونتاج والـ 3D.</p><span class="tag">حوت التصميم</span></a>
-            <a href="https://cgpeers.to/" target="_blank" class="card"><h3>CGPeers <span>🧲</span></h3><p>التراكر الخاص (Private Tracker) الأكبر في العالم لملفات التصميم، الـ 3D والمونتاج.</p><span class="tag">تراكر خاص</span></a>
+            <a href="https://cgpeers.to/" target="_blank" class="card"><h3>CGPeers <span>🧲</span></h3><p>التراكر الخاص الأكبر في العالم لملفات التصميم، الـ 3D والمونتاج.</p><span class="tag">تراكر خاص</span></a>
             <a href="https://shareae.com/" target="_blank" class="card"><h3>ShareAE <span>🐳</span></h3><p>الحوت الأكبر عالمياً لتسريب قوالب وإضافات After Effects و Premiere.</p><span class="tag">مونتاج وجرافيك</span></a>
             <a href="https://vfxdownload.net/" target="_blank" class="card"><h3>VFXdownload <span>🐳</span></h3><p>المنافس الشرس لـ ShareAE.. كنز للمصممين وصناع المحتوى وملحقات المونتاج.</p><span class="tag">مونتاج وجرافيك</span></a>
             <a href="https://gfxtra31.com/" target="_blank" class="card"><h3>GFXtra <span>🐳</span></h3><p>أسطورة تسريبات الكورسات، الموك آب، وإضافات البريمير والأفتر إفكتس.</p><span class="tag">تصميم ومونتاج</span></a>
@@ -306,16 +329,16 @@
     <div id="software" class="page-content category">
         <h2>💿 البرامج المفعلة والتثبيت الصامت (PC & Mac)</h2>
         <div class="grid">
-            <a href="https://w14.monkrus.ws/" target="_blank" class="card"><h3>Monkrus <span>🐳</span></h3><p>حوت برامج أدوبي! المصدر الأول عالمياً لبرامج (Premiere, Photoshop) بنسخ نظيفة 100%.</p><span class="tag">أدوبي (Adobe)</span></a>
-            <a href="https://repack.me/" target="_blank" class="card"><h3>KpoJIuK (Krolik) <span>🐳</span></h3><p>الحوت الروسي الأشرس في عمل برامج (Repack) متفعلة جاهزة وتثبيت صامت (يحتاج تسجيل).</p><span class="tag">تثبيت صامت</span></a>
+            <a href="https://w14.monkrus.ws/" target="_blank" class="card"><h3>Monkrus <span>🐳</span></h3><p>حوت برامج أدوبي! المصدر الأول عالمياً لبرامج (Premiere, Photoshop) بنسخ نظيفة.</p><span class="tag">أدوبي (Adobe)</span></a>
+            <a href="https://repack.me/" target="_blank" class="card"><h3>KpoJIuK (Krolik) <span>🐳</span></h3><p>الحوت الروسي الأشرس في عمل برامج (Repack) متفعلة جاهزة وتثبيت صامت.</p><span class="tag">تثبيت صامت</span></a>
             <a href="https://www.cybermania.ws/" target="_blank" class="card"><h3>CyberMania <span>⚡</span></h3><p>موقع جبار لتحميل نسخ الويندوز المعدلة والخفيفة والبرامج المفعلة مسبقاً.</p><span class="tag">ويندوز وبرامج</span></a>
             <a href="https://rsload.net/" target="_blank" class="card"><h3>Rsload <span>🇷🇺</span></h3><p>الوحش الروسي المخفي! تحديثات يومية لأي برنامج تتخيله بتفعيلات نظيفة جداً.</p><span class="tag">موقع روسي</span></a>
-            <a href="https://taiweb.com/" target="_blank" class="card"><h3>Taiweb <span>🇻🇳</span></h3><p>موقع فيتنامي أسطوري بيوفر نسخ برامج صامتة التثبيت (Repack) زي الروسي بالظبط.</p><span class="tag">تثبيت صامت</span></a>
+            <a href="https://taiweb.com/" target="_blank" class="card"><h3>Taiweb <span>🇻🇳</span></h3><p>موقع فيتنامي أسطوري بيوفر نسخ برامج صامتة التثبيت (Repack) زي الروسي.</p><span class="tag">تثبيت صامت</span></a>
             <a href="https://appnee.com/" target="_blank" class="card"><h3>AppNee <span>🧩</span></h3><p>موقع مجنون بيوفر برامج (Portable) وتفعيلات نادرة جداً للمطورين.</p><span class="tag">برامج نادرة</span></a>
             <a href="https://macdrop.net/" target="_blank" class="card"><h3>MacDrop <span>🍎</span></h3><p>الحوت الأكبر لمستخدمي نظام الماك! كل برامج أبل المدفوعة متفعلة وجاهزة.</p><span class="tag">برامج Mac</span></a>
             <a href="https://kuyhaa.me/" target="_blank" class="card"><h3>Kuyhaa <span>🐳</span></h3><p>حوت إندونيسيا للبرامج! موقع موثوق جداً لتحميل نسخ الويندوز والتفعيلات السليمة.</p><span class="tag">برامج وتفعيلات</span></a>
-            <a href="https://mutaz.net/" target="_blank" class="card"><h3>موقع معتز (Mutaz.net) <span>💻</span></h3><p>الموقع العربي الأشهر لتحميل برامج الويندوز النظيفة والمجمعة بروابط مباشرة سريعة.</p><span class="tag">برامج عربية</span></a>
-            <a href="https://getintopc.com/" target="_blank" class="card"><h3>GetIntoPC <span>🌍</span></h3><p>الأسطورة والمكتبة الأضخم عالمياً لتحميل أي برنامج هندسي أو جرافيك يخطر على بالك.</p><span class="tag">مكتبة شاملة</span></a>
+            <a href="https://mutaz.net/" target="_blank" class="card"><h3>موقع معتز (Mutaz.net) <span>💻</span></h3><p>الموقع العربي الأشهر لتحميل برامج الويندوز النظيفة والمجمعة بروابط مباشرة.</p><span class="tag">برامج عربية</span></a>
+            <a href="https://getintopc.com/" target="_blank" class="card"><h3>GetIntoPC <span>🌍</span></h3><p>الأسطورة والمكتبة الأضخم عالمياً لتحميل أي برنامج هندسي أو جرافيك.</p><span class="tag">مكتبة شاملة</span></a>
             <a href="https://filecr.com/" target="_blank" class="card"><h3>FileCR <span>🚀</span></h3><p>الموقع الأقوى والأنظف حالياً لتحميل برامج الكمبيوتر والماك مفعلة وجاهزة.</p><span class="tag">برامج مفعلة</span></a>
             <a href="https://lrepacks.net/" target="_blank" class="card"><h3>Lrepacks <span>🇷🇺</span></h3><p>موقع روسي عبقري بيوفر البرامج (Repack) تتسطب وتتفعل بضغطة زرار واحدة.</p><span class="tag">تثبيت صامت</span></a>
             <a href="https://downloadlynet.ir" target="_blank" class="card"><h3>Downloadly <span>🇮🇷</span></h3><p>أضخم موقع إيراني للبرامج الهندسية المعمارية وأدوات المطورين.</p><span class="tag">برامج هندسية</span></a>
@@ -328,12 +351,22 @@
     <div id="games-torrents" class="page-content category">
         <h2>🎮 حيتان الألعاب ومواقع التورنت العام</h2>
         <div class="grid">
-            <a href="https://cs.rin.ru/forum/" target="_blank" class="card"><h3>CS.RIN.RU <span>🎮</span></h3><p>أعظم منتدى في الديب ويب لاختراق ألعاب وملفات Steam. أي لعبة بفلوس هتلاقي ملفاتها هنا.</p><span class="tag">حوت الألعاب</span></a>
-            <a href="https://fitgirl-repacks.site/" target="_blank" class="card"><h3>FitGirl Repacks <span>🎮</span></h3><p>الأسطورة الأولى في العالم لضغط الألعاب الثقيلة (زي RDR2 و GTA V) لربع مساحتها الأصلية.</p><span class="tag">ألعاب مضغوطة</span></a>
-            <a href="https://dodi-repacks.site/" target="_blank" class="card"><h3>Dodi Repacks <span>🐳</span></h3><p>المنافس الشرس لـ FitGirl.. حوت الألعاب المكركة وتنزيلها بمساحات صغيرة وتثبيت سريع.</p><span class="tag">حوت الألعاب</span></a>
+            <a href="https://cs.rin.ru/forum/" target="_blank" class="card"><h3>CS.RIN.RU <span>🎮</span></h3><p>أعظم منتدى في الديب ويب لاختراق ألعاب وملفات Steam. أي لعبة بفلوس هتلاقيها هنا.</p><span class="tag">حوت الألعاب</span></a>
+            <a href="https://fitgirl-repacks.site/" target="_blank" class="card"><h3>FitGirl Repacks <span>🎮</span></h3><p>الأسطورة الأولى في العالم لضغط الألعاب الثقيلة لربع مساحتها الأصلية.</p><span class="tag">ألعاب مضغوطة</span></a>
+            <a href="https://dodi-repacks.site/" target="_blank" class="card"><h3>Dodi Repacks <span>🐳</span></h3><p>المنافس الشرس لـ FitGirl.. حوت الألعاب المكركة وتنزيلها بمساحات صغيرة.</p><span class="tag">حوت الألعاب</span></a>
             <a href="https://torrentgalaxy.to" target="_blank" class="card"><h3>TorrentGalaxy <span>🧲</span></h3><p>أقوى موقع تورنت عام حالياً للملفات والبرامج والكورسات، نشط جداً وموثوق.</p><span class="tag">تورنت عام</span></a>
             <a href="https://1337x.to" target="_blank" class="card"><h3>1337x <span>🧲</span></h3><p>الموقع الأشهر لتحميل الأفلام، الكورسات، والألعاب بنظام التورنت.</p><span class="tag">تورنت عام</span></a>
             <a href="https://rutracker.org" target="_blank" class="card"><h3>Rutracker <span>🧲</span></h3><p>المنتدى الروسي الضخم للكورسات والبرامج والألعاب النادرة.</p><span class="tag">تورنت روسي</span></a>
+        </div>
+    </div>
+
+    <div id="game-mods" class="page-content category">
+        <h2>🕹️ مودات وتعديلات الألعاب (Mods & Scripts)</h2>
+        <div class="grid">
+            <a href="https://www.nexusmods.com/" target="_blank" class="card"><h3>Nexus Mods <span>🐉</span></h3><p>المجتمع الأضخم عالمياً لتحميل تعديلات الألعاب، تحسين الجرافيكس، وإضافة شخصيات جديدة.</p><span class="tag">تعديلات شاملة</span></a>
+            <a href="https://www.gta5-mods.com/" target="_blank" class="card"><h3>GTA5-Mods <span>🚗</span></h3><p>المرجع الأول لتركيب الـ Script Hooks، حزم السيارات الضخمة، وتعديل بيئة لعب GTA V.</p><span class="tag">تعديلات GTA V</span></a>
+            <a href="https://evoweb.uk/" target="_blank" class="card"><h3>EvoWeb <span>⚽</span></h3><p>المنتدى الأسطوري الخاص بباتشات ألعاب كرة القدم وتعديلات الأطقم والملاعب.</p><span class="tag">باتشات رياضية</span></a>
+            <a href="https://modworkshop.net/" target="_blank" class="card"><h3>ModWorkshop <span>🛠️</span></h3><p>موقع ممتاز لتعديلات ألعاب الـ Co-op والألعاب المستقلة (Indie Games).</p><span class="tag">مجتمع المودرز</span></a>
         </div>
     </div>
 
@@ -386,7 +419,7 @@
             <a href="https://t.me/CORSESMETA" target="_blank" class="card"><h3>@CORSESMETA <span>🏴‍☠️</span></h3><p>القناة الرئيسية لشبكة Courses Meta لتسريب الكورسات المدفوعة.</p><span class="tag">تسريبات</span></a>
             <a href="https://t.me/XMOOM" target="_blank" class="card"><h3>@XMOOM <span>🏴‍☠️</span></h3><p>قناة تابعة لـ Courses Meta مخصصة لنشر الكورسات الغالية مسربة.</p><span class="tag">تسريبات</span></a>
             <a href="https://t.me/CORSES3" target="_blank" class="card"><h3>@CORSES3 <span>🏴‍☠️</span></h3><p>قناة إضافية واحتياطية لشبكة Courses Meta لكورسات البرمجة المسربة.</p><span class="tag">تسريبات</span></a>
-            <a href="#" class="card"><h3>شفرة: Udemy Mega.nz <span>🔍</span></h3><p>ابحث بالكلمة دي في تيليجرام للوصول لقنوات التسريبات اللي بترفع على سيرفر ميجا الصاروخي.</p><span class="tag">شفرة بحث</span></a>
+            <a href="#" class="card"><h3>شفرة: Udemy Mega.nz <span>🔍</span></h3><p>ابحث بالكلمة دي في تيليجرام للوصول لقنوات التسريبات اللي بترفع على سيرفر ميجا.</p><span class="tag">شفرة بحث</span></a>
             <a href="#" class="card"><h3>Course Downloader Bot <span>🤖</span></h3><p>ابحث عن Udemy DL Bot لجلب ملفات الكورسات المدفوعة بروابط يوديمي مباشرة.</p><span class="tag">بوتات تسريب</span></a>
         </div>
     </div>
